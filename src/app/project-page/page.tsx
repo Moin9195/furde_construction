@@ -104,22 +104,14 @@ const projects = [
 
 export default function ProjectsPage() {
   const [activeProject, setActiveProject] = useState(0)
-  const [isAnimating, setIsAnimating] = useState(false)
+
   const [showAllProjects, setShowAllProjects] = useState(false)
   const [showMobileNav, setShowMobileNav] = useState(false)
   const [liked, setLiked] = useState<number[]>([])
   const [bookmarked, setBookmarked] = useState<number[]>([])
   const sectionsRef = useRef<(HTMLDivElement | null)[]>([])
 
-  const handleProjectChange = (index: number) => {
-    if (index === activeProject || isAnimating) return
 
-    setIsAnimating(true)
-    setTimeout(() => {
-      setActiveProject(index)
-      setIsAnimating(false)
-    }, 300)
-  }
 
   const scrollToProject = (index: number) => {
     setShowAllProjects(false)
@@ -165,7 +157,7 @@ export default function ProjectsPage() {
     if (showAllProjects) return
 
     const handleScroll = () => {
-      const scrollY = window.scrollY
+ 
       const windowHeight = window.innerHeight
 
       // Find which section is currently in view

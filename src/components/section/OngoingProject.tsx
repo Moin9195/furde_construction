@@ -73,20 +73,6 @@ const projects = [
   },
 ]
 
-const getStatusColor = (status: string) => {
-  switch (status) {
-    case "Under Construction":
-      return "bg-blue-500 text-white"
-    case "Planning Phase":
-      return "bg-yellow-500 text-white"
-    case "Nearly Complete":
-      return "bg-green-500 text-white"
-    case "Coming Soon":
-      return "bg-purple-500 text-white"
-    default:
-      return "bg-gray-500 text-white"
-  }
-}
 
 export default function OngoingProject() {
   const [searchTerm, setSearchTerm] = useState("")
@@ -112,7 +98,7 @@ export default function OngoingProject() {
       <section className="relative py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-neutral-100 mb-6">
-            Building Tomorrow's <span className="text-blue-600 block">Landmarks</span>
+            Building Tomorrow&apos;s <span className="text-blue-600 block">Landmarks</span>
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Discover our ongoing construction projects that are shaping the future of modern living and working spaces.

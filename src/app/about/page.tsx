@@ -6,12 +6,11 @@ import { Badge } from '@/components/ui/badge';
 import { 
   Building2, 
   Users, 
-  Award, 
-  Target, 
+
   Heart, 
   CheckCircle, 
   Calendar, 
-  MapPin, 
+ 
   Star, 
   Trophy,
   Briefcase,
@@ -19,9 +18,9 @@ import {
   Mail,
   Phone,
   Linkedin,
-  Twitter,
+
   ArrowRight,
-  Globe,
+
   TrendingUp,
   Shield,
   Zap
@@ -30,7 +29,7 @@ import { Card, CardContent } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Separator } from '@/components/ui/separator';
-import { WobbleCard } from '@/components/ui/wobble-card';
+
 
 
 const AboutPage = () => {
@@ -155,7 +154,7 @@ const AboutPage = () => {
               Meet Our Visionary Leaders
             </h2>
             <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
-              The experienced professionals who drive ConstructPro's success through innovation, 
+              The experienced professionals who drive ConstructPro&apos;s success through innovation, 
               expertise, and unwavering commitment to excellence.
             </p>
           </div>
@@ -365,7 +364,7 @@ const AboutPage = () => {
             Ready to Build Something Amazing?
           </h2>
           <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-            Let's discuss your next project and turn your vision into reality with our expertise and commitment to excellence.
+            Let&apos;s discuss your next project and turn your vision into reality with our expertise and commitment to excellence.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" className="px-8 py-4 text-lg font-semibold">

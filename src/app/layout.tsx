@@ -3,7 +3,7 @@ import Footer from "../components/layout/Footer";
 import { ThemeProvider } from "next-themes";
 
 import "./globals.css";
-import HeroSection from "@/components/section/HeroSection";
+
 
 export const metadata = {
   title: "My App",
