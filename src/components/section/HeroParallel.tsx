@@ -13,27 +13,23 @@ export const products = [
   {
     title: "Moonbeam",
     link: "https://gomoonbeam.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+   thumbnail: "/top.png",
   },
   {
     title: "Cursor",
     link: "https://cursor.so",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+    thumbnail: "/fullfront.png",
   },
   {
     title: "Rogue",
     link: "https://userogue.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+    thumbnail: "/out1.png",
   },
 
   {
     title: "Editorially",
     link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+    thumbnail: "/out2.png",
   },
   {
     title: "Editrix AI",

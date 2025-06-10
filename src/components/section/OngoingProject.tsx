@@ -17,7 +17,7 @@ const projects = [
     location: "Downtown Manhattan, NY",
     type: "Luxury Residential",
     status: "Coming Soon",
-    image: "/img.jpg?height=300&width=400",
+    image: "/top.png?height=300&width=400",
     description: "Premium luxury apartments with stunning city views and world-class amenities.",
     completionYear: "2025",
   },

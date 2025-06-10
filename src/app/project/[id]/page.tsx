@@ -27,15 +27,15 @@ const projectData = {
     location: "Downtown Manhattan, NY",
     type: "Luxury Residential",
     status: "Coming Soon",
-    image: "/img.jpg?height=600&width=800",
+    image: "/top.png?height=600&width=800",
     description:
       "Experience luxury living at its finest with Skyline Towers. These premium residential towers offer breathtaking city views, world-class amenities, and sophisticated design that defines modern urban living.",
     completionYear: "2025",
     gallery: [
-      "/bedroom.jpg?height=400&width=600",
-      "/img.jpg?height=400&width=600",
-      "/bedroom.jpg?height=400&width=600",
-      "/img.jpg?height=400&width=600",
+      "/front.png?height=400&width=600",
+      "/fullfront.png?height=400&width=600",
+      "/out1.png?height=400&width=600",
+      "/out2.png?height=400&width=600",
     ],
     amenities: [
       { icon: Car, name: "Valet Parking", description: "24/7 valet parking service" },
@@ -99,8 +99,8 @@ export default function ProjectDetailPage() {
       {/* Header */}
     
       {/* Hero Section */}
-      <section className="relative">
-        <div className="h-96 md:h-[500px] relative overflow-hidden">
+      <section className="relative pt-20">
+        <div className="h-96 md:h-[700px] relative overflow-hidden">
           <Image src={project.image || "/placeholder.svg"} alt={project.name} fill className="object-cover" priority />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
           <div className="absolute bottom-8 left-8 text-white">
